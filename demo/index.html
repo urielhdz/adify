@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="" class="adder" data-selector="#table">
+	  <input type="text" name="algo">
+	  <input type="email" name="other">
+	  <input type="text" name="another">
+	  <textarea name="asdas" id="" cols="30" rows="10"></textarea>
+	  <input type="submit" value="Guardar">
+	</form>
+	<table id="table">
+	  
+	</table>
+	<script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+	<!-- Agregamos adify -->
+	<script src="../adify.js"></script>
+	<script>
+		// Inicializamos el formulario
+		$(".adder").adify();
+		// Muy importante: El formulario debe contenter un atributo data-selector que tenga el selector para la tabla a la que se agragará la info
+	</script>
+</body>
+</html>
